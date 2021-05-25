@@ -2,6 +2,7 @@ body {
     width: 100%;
     margin: 0;
     overflow-x: hidden;
+    font-family: 'Battambang', cursive;
 }
 
 
@@ -228,7 +229,7 @@ label {
 
 .chat>#send {
     position: absolute;
-    left: 64%;
+    left: 62.5%;
     width: 10vh;
 }
 
@@ -236,4 +237,9 @@ label {
     width: 5vh;
     margin-left: 6px;
     margin-right: 6px;
+}
+
+.chat>#bold,
+#italic {
+    width: 3.5vh;
 }
